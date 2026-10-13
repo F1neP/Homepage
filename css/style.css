@@ -275,6 +275,33 @@ a.contact-item:focus-visible {
     font-size: 13px;
 }
 
+.contact-email-group {
+    align-items: center;
+}
+
+.contact-emails {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2px 7px;
+}
+
+.contact-emails > a,
+.contact-email-secondary {
+    white-space: nowrap;
+}
+
+.contact-email-secondary {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.contact-email-separator {
+    color: var(--accent-soft);
+    opacity: 0.78;
+}
+
 .main-content {
     display: grid;
     grid-template-columns: minmax(300px, 0.82fr) minmax(0, 1.48fr);
